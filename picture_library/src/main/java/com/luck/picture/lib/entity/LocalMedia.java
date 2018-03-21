@@ -27,6 +27,8 @@ public class LocalMedia implements Parcelable {
     private boolean compressed;
     private int width;
     private int height;
+    public boolean isSucceedUpload;
+    public String uploadUrl;
 
     public LocalMedia() {
 
